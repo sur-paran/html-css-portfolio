@@ -1,0 +1,64 @@
+.gradient-background {
+  background: linear-gradient(300deg, #F8F9D7, #6DC5D1, #C738BD);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+
+}
+
+.profile-img {
+    border-radius: 7rem;
+    border: 1rem dashed white;
+}
+
+#fabrinet-logo {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#nok-air-logo {
+    margin-bottom: 10px;
+}
+
+.font-one {
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-two {
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-three {
+    font-family: "Frank Ruhl Libre", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (min-width: 375px) and (max-width: 430px) {
+  #education h3 {
+    font-size: 1rem;
+  }
+}
